@@ -14,11 +14,17 @@ const subNum = () => {
   return count;
 };
 
+const multiplyNum = () => {
+  count *= 2;
+  return count;
+};
+
 const divideNum = () => {
-  count /= 2;
+  count *= 2;
   return count;
 };
 
 addNum(nums);
 subNum(nums);
 divideNum(nums);
+multiplyNum();
